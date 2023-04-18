@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 100%;
+    animation: bgimage infinite 60s;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#bgimage{
+    width: 100%;
+}
+@keyframes bgimage{
+    0%{
+        background-image: url('mikasa-ackerman-and-free-titan-wallpaper-800x480_12.jpg')       
+    }
+    20%{
+        background-image: url('attack-on-titan-7r-5120x2880.jpg')  
+    }
+    40%{
+        background-image: url('attack-on-titan-season-4-ve-1024x768.jpg')
+    }    
+    60%{
+        background-image: url('images.jpg') 
+    }
+    80%{
+        background-image: url('661131,jpg') 
+    }  
+    90%{
+        background-image: url('316615-Attack-Titan-Attack-on-Titan-4K.jpg') 
+    }
+    100%{
+        background-color: #fff;
+    }
+}
